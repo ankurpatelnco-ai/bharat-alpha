@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Binary dependencies & tools
+bin/
+*.exe
+
+# Local session secrets & transient files
+data/.session_secret
+temp_*.vbs
+temp_*.py
+.DS_Store
+Thumbs.db
+
